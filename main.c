@@ -5,6 +5,7 @@
 
 int main(void)
 {
+	printf("test\n");
 	void *s = new(Set);
 	void *a = add(s, new(Object));
 	void *b = add(s, new(Object));
