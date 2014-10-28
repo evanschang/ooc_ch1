@@ -1,13 +1,8 @@
-#ifndef OBJECT_H_
-#define OBJECT_H_
+#ifndef	OBJECT_H
+#define	OBJECT_H
 
-struct Object {
-	unsigned count;
-	struct Set *in;
-};
+extern const void * Object;		/* new(Object); */
 
-extern const void *Object;
+int differ (const void * a, const void * b);
 
-int differ(const void *a, const void *b);
-
-#endif /* OBJECT_H_ */
+#endif

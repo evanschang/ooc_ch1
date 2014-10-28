@@ -1,11 +1,12 @@
-#ifndef SET_H_
-#define SET_H_
+#ifndef	SET_H
+#define	SET_H
 
-extern const void *Set;
+extern const void * Set;
 
-void* add(void *_set, const void *_element);
-void* find(const void *_set, const void *_element);
-void* drop(void *_set, const void *_element);
-int contains(const void *_set, const void *_element);
+void * add (void * set, const void * element);
+void * find (const void * set, const void * element);
+void * drop (void * set, const void * element);
+int contains (const void * set, const void * element);
+unsigned count (const void * set);
 
-#endif /* SET_H_ */
+#endif

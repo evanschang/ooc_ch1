@@ -1,7 +1,7 @@
-#ifndef NEW_H_
-#define NEW_H_
+#ifndef	NEW_H
+#define	NEW_H
 
-void* new(const void *type,...);
-void delete(void *item);
+void * new (const void * type, ...);
+void delete (void * item);
 
-#endif /* NEW_H_ */
+#endif
